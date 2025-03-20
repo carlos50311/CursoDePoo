@@ -1,26 +1,112 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using EXEMPLOPOO.Models;
 
-Aluno a1 = new()
+Aluno a1 = new(nome: "João", idade: 20)
 {
-    Nome = "joão",
-    Idade = 20,
-    Email = "joao33@gmail.com",
     Nota = 10
 };
-a1.Apresentar();
 
-Console.WriteLine();
-
-Professor pr1 = new()
+Professor prof = new(nome: "Caio", idade: 30)
 {
-    Nome = "Caio",
-    Idade = 30,
-    Email = "caio34@gmail.com",
-    Salario = 10000
-
+    Salario = 20000
 };
-pr1.Apresentar();
+
+a1.Apresentar();
+prof.Apresentar();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Corrente cc1 = new();
+// cc1.Creditar(1000);
+// cc1.ExibirSaldo();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Aluno a1 = new()
+// {
+//     Nome = "joão",
+//     Idade = 20,
+//     Email = "joao33@gmail.com",
+//     Nota = 10
+// };
+// a1.Apresentar();
+
+// Console.WriteLine();
+
+// Professor prof = new()
+// {
+//     Nome = "Caio",
+//     Idade = 30,
+//     Email = "caio34@gmail.com",
+//     Salario = 10000
+
+// };
+// prof.Apresentar();
 
 
 
