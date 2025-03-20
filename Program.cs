@@ -1,18 +1,92 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using EXEMPLOPOO.Interfaces;
 using EXEMPLOPOO.Models;
 
-Aluno a1 = new(nome: "João", idade: 20)
-{
-    Nota = 10
-};
+Calculadora calc = new();
+Console.WriteLine(calc.Somar(10, 20));
+Console.WriteLine(calc.Multiplicar(10, 20));
 
-Professor prof = new(nome: "Caio", idade: 30)
-{
-    Salario = 20000
-};
 
-a1.Apresentar();
-prof.Apresentar();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Computador computer = new();
+// Console.WriteLine(computer.ToString());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Aluno a1 = new(nome: "João", idade: 20)
+// {
+//     Nota = 10
+// };
+
+// Professor prof = new(nome: "Caio", idade: 30)
+// {
+//     Salario = 20000
+// };
+
+// a1.Apresentar();
+// prof.Apresentar();
 
 
 
