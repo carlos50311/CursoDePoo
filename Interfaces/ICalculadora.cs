@@ -11,7 +11,10 @@ namespace EXEMPLOPOO.Interfaces
         int Somar(int a, int b, int c);
         int Subtrair(int a, int b);
         int Dividir(int a, int b);
-        int Multiplicar(int a, int b);
+        int Multiplicar(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
 

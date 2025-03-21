@@ -2,7 +2,7 @@
 using EXEMPLOPOO.Interfaces;
 using EXEMPLOPOO.Models;
 
-Calculadora calc = new();
+ICalculadora calc = new Calculadora();
 Console.WriteLine(calc.Somar(10, 20));
 Console.WriteLine(calc.Multiplicar(10, 20));
 

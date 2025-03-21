@@ -23,13 +23,8 @@ namespace EXEMPLOPOO.Models
             if(b == 0 || a == 0){
                 throw new Exception("Não é possivel dividir por zero");
             }
-            
-            return a / b; 
-        }
 
-        public  int Multiplicar(int a, int b)
-        {
-            return a * b;
+            return a / b; 
         }
 
         public  int Subtrair(int a, int b)
